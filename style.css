@@ -54,12 +54,42 @@ ul li {
 }
 
 .project-card {
-  background: #fff;
+  background: #f5f5f5;
+  border-radius: 8px;
   padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+.project-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-content img {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-text h3 {
+  margin-top: 0;
+}
+
+.project-text a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #007BFF;
+  text-decoration: none;
+}
+
 
 .project-card a {
   color: #007BFF;
